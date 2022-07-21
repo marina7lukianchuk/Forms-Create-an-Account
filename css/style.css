@@ -172,25 +172,25 @@ border: 1px solid #007BFF; }
 .arrows_down {
 width: 15px;
 height: 15px;
-background-image: url(/img/icon_for_select.png);
+background-image: url(../img/icon_for_select.png);
 transform: rotate(180deg);
 background-repeat: no-repeat;
 background-size: 10px;
 display: inline-block;
 position: absolute;
-bottom: 10px;
+bottom: 11px;
 right: 10px; 
 z-index: 1;}
 
 .arrows_up {
 width: 15px;
 height: 15px;
-background-image: url(/img/icon_for_select.png);
+background-image: url(../img/icon_for_select.png);
 background-repeat: no-repeat;
 background-size: 10px;
 display: inline-block;
 position: absolute;
-bottom: 10px;
+bottom: 9px;
 right: 5px; 
 z-index: 1; }
 
@@ -318,7 +318,7 @@ max-width: 138px;
 .camera {
 width: 20px;
 height: 20px;
-background-image: url(/img/camera.svg);
+background-image: url('../img/camera.svg');
 background-repeat: no-repeat;
 background-size: 15px;
 display: inline-block;
