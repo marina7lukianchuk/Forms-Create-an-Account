@@ -169,11 +169,15 @@ font-weight: 400; }
 .select_country:focus {
 border: 1px solid #007BFF; }
 
+/* Криві Стрілочки кудись поїхали,
+ не можу їх вирівняти ========== */  
+
+
 .arrows_down {
 width: 15px;
 height: 15px;
 background-image: url(../img/icon_for_select.png);
-transform: rotate(180deg);
+transform: rotate(-180deg);
 background-repeat: no-repeat;
 background-size: 10px;
 display: inline-block;
@@ -217,7 +221,8 @@ color: #FFFFFF;
 font-family: 'Roboto', sans-serif;
 font-size: 15px;
 font-weight: 500;
-line-height: 22px; }
+line-height: 22px;
+cursor: pointer;  }
 
 
  /* Create an account (Footer) ========== */  
@@ -361,7 +366,8 @@ font-size: 15px;
 font-weight: 500;
 line-height: 22px;
 letter-spacing: -0.1px;
-z-index: 1; }
+z-index: 1;
+cursor: pointer;  }
 
 .button_update { 
 width: 150px;
