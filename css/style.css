@@ -1,0 +1,378 @@
+    body, html {
+margin: 0 auto;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+color: rgb(22, 20, 20); }
+
+    body {
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+display: block; }
+
+   * {
+box-sizing: border-box;
+margin: 0; }
+
+
+   /* Forms ========== */ 
+
+   .forms {
+padding: 55px 0 0;
+height: 700px;
+width: 100%;
+background-color: #E5E5E5;
+display: flex;
+justify-content: space-around; }
+
+.container {
+padding: 35px 34px 35px 34px;
+margin: 0 15px;
+width: 570px;
+height: 590px;
+background-color: #FFFFFF;
+z-index: 1; } 
+
+.main_title {
+color: #1C1C1C;
+height: 32px;
+width: 100%;
+max-width: 200px;
+margin-bottom: 20px; }
+
+     /* Create an account ========== */ 
+
+.title_of_container {
+color: #1C1C1C;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+position: absolute;
+margin: 0 0 0 2px; }
+
+.label_for_input {
+display: block;
+margin-bottom: 7px;
+font-family: 'Roboto', sans-serif;
+color: #545454;
+font-size: 12px;
+font-weight: 400;
+line-height: 22px; }
+
+.input {
+width: 245px;
+height: 38px;
+padding: 0;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+outline: none; }
+
+.input:focus {
+border: 1px solid #007BFF; }
+
+.input_section1 {
+display: flex;
+justify-content: space-between;
+margin: 0 0 20px; }
+
+ /* Create an account (E-mail) ========== */  
+
+
+ .input_section2 {
+display: block;}
+
+ .input_e-mail {
+width: 500px;
+height: 38px;
+padding: 0;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+outline: none; }
+
+.input_e-mail:focus {
+border: 1px solid #007BFF; }
+
+.under_text {
+font-family: 'Roboto', sans-serif;
+color: ##969696;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px; }
+
+/* Create an account (Male/Female) ========== */  
+
+.radio {
+display: flex;
+justify-content: start;
+margin: 0 0 20px;}
+
+.radio_label {
+display: flex;
+justify-content: space-between;
+font-family: 'Roboto', sans-serif;
+color: #545454;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+margin-right: 20px;
+margin-top: 15px; }
+
+.radio_input {
+opacity: 0;
+width: 0;
+height: 0;
+margin: 0; }
+
+.radio_sex {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 20px;
+height: 20px;
+border: 1px solid #E4E4E4;
+border-radius: 50%;
+margin-right: 8px; }
+
+.radio_input:checked + .radio_sex::before {
+content: '';
+display: inline-block;
+width: 8px;
+height: 8px;
+background-color:#FFFFFF;
+border: 5px solid #007BFF;
+border-radius: 50%; }
+
+/* Create an account (Country and city) ========== */  
+
+.input_section3 {
+display: flex;
+justify-content: space-between;
+margin: 0 0 20px; }
+
+.first_country {
+position: relative; }
+
+.select_country {
+appearance: none;
+width: 245px;
+height: 38px;
+padding: 0 0 0 5px;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+outline: none; 
+color: #545454;
+opacity: 0.5;
+font-size: 15px;
+font-weight: 400; }
+
+.select_country:focus {
+border: 1px solid #007BFF; }
+
+.arrows_down {
+width: 15px;
+height: 15px;
+background-image: url(/img/icon_for_select.png);
+transform: rotate(180deg);
+background-repeat: no-repeat;
+background-size: 10px;
+display: inline-block;
+position: absolute;
+bottom: 11px;
+right: 10px; 
+z-index: 1;}
+
+.arrows_up {
+width: 15px;
+height: 15px;
+background-image: url(/img/icon_for_select.png);
+background-repeat: no-repeat;
+background-size: 10px;
+display: inline-block;
+position: absolute;
+bottom: 10px;
+right: 5px; 
+z-index: 1; }
+
+/* Create an account (Buttton) ========== */  
+
+.button {
+position: relative;
+margin-bottom: 22px; }
+
+.input_button { 
+width: 500px;
+height: 38px;
+padding: 0;
+border: 1px solid #007BFF;
+background-color: #007BFF;
+border-radius: 6px;
+cursor: pointer;  }
+
+.label_for_button {
+position: absolute;
+bottom: 13px;
+right: 230px;
+color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px; }
+
+
+ /* Create an account (Footer) ========== */  
+
+.footer_text {
+max-width: 410px;
+margin: 0 0px 20px 45px;
+display: flex;
+justify-content: center;
+padding: 0 20px 20px;
+border-bottom: 1px solid #E4E4E4; }
+
+.grey_text {
+max-width: 410px;
+max-height: 40px;
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+color: #969696;
+text-align: center;
+margin: 0 auto; }
+
+.link_footer {
+font-family: 'Roboto', sans-serif;
+color: #007BFF;
+text-decoration: none; }
+
+.log_in {
+max-width: 177px;
+max-height: 22px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; }
+
+.text_login {
+font-family: 'Roboto', sans-serif;    
+color: #545454;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.2px; }
+
+.link_login {
+font-family: 'Roboto', sans-serif;
+color: #007BFF;
+text-decoration: none;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+margin: 0 0 0 15px;
+letter-spacing: -0.2px; }
+
+/* Profile (Header) ========== */ 
+
+.high_profile {
+display: flex;
+justify-content: flex-start;
+}
+
+.fake_input_file {
+width: 138px;
+height: 30px;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+outline: none; 
+position: relative;
+margin: 15px 10px 9px 15px;
+}
+
+.avatar {
+width: 80px;
+height: 80px;
+}
+
+.profile_avatar {
+width: 80px;
+height: 80px;
+width: 100%;
+border-radius: 70%;
+}
+
+.section_for_file {
+max-height: 100px;
+max-width: 240px;
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin-bottom: 30px;
+
+}
+
+.input_file {
+opacity: 0;
+max-width: 138px;
+}
+
+.camera {
+width: 20px;
+height: 20px;
+background-image: url(/img/camera.svg);
+background-repeat: no-repeat;
+background-size: 15px;
+display: inline-block;
+position: absolute;
+bottom: 2px;
+right: 2px; 
+z-index: 1;
+cursor: pointer; }
+
+.bucket {
+width: 30px;
+height: 30px;
+background-color: #FFFFFF;
+border-radius: 6px;
+border: 1px solid #E4E4E4;
+margin: 15px 10px 9px 0;
+padding: 0;
+cursor: pointer; }
+
+.text_file {
+color: #969696;
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.1px;
+display: block;
+margin-left: 15px; }
+
+/* Profile (Update Button) ========== */ 
+
+
+.label_for_update {
+position: absolute;
+bottom: 12px;
+left: 50px;
+color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.1px;
+z-index: 1; }
+
+.button_update { 
+width: 150px;
+height: 38px;
+padding: 0;
+border: 1px solid #007BFF;
+background-color: #007BFF;
+border-radius: 6px;
+cursor: pointer; }
+        
+.update {
+position: relative; }
+
+

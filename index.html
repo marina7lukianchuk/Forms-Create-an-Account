@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Forms </title>
+</head>
+<body>
+<section class="forms"> 
+<form class="create_an_account">
+    <div class="container"> 
+            <div class="main_title"> 
+            <h2 class="title_of_container"> Create an Account </h2>
+            </div>
+      <div class="input_section1"> 
+            <div class="first"> 
+            <label class="label_for_input" for="first_name"> First Name </label>
+            <input class="input" type="text" name="first_name" id="first_name" required="">
+           </div>
+            <div class="second">
+                <label class="label_for_input" for="last_name"> Last Name </label>
+               <input class="input" type="text" name="last_name" id="last_name" required="">
+            </div>
+      </div>
+      <div class="input_section2"> 
+        <label class="label_for_input" for="input_email"> E-mail </label>
+        <input class="input_e-mail" type="email" name="e-mail" id="input_email" required="">
+        <span class="under_text"> We'll never share your email with anyone else. </span>
+      </div>
+      <div class="radio"> 
+      <label class="radio_label">
+        <input class="radio_input" type="radio" name="sex" value="#">
+        <span class="radio_sex"></span>
+        Male
+    </label>
+    <label class="radio_label">
+        <input class="radio_input" type="radio" name="sex" value="#">
+        <span class="radio_sex"></span>
+        Female
+    </label>
+   </div>
+   <div class="input_section3"> 
+    <div class="first_country"> 
+    <label class="label_for_input" for="country"> Country </label>
+    <select name="country" class="select_country">
+    <option value="0"> Select </option>
+    <option value="1"> Ukraine </option>
+    <option value="2"> USA </option>
+    <option value="3"> France </option>
+    <option value="4"> Italy </option>
+    <option value="5"> Poland </option>
+    <option value="6"> Canada </option>
+    <option value="7"> Spain </option>
+    </select>
+    <span class="arrows_down"> </span>
+    <span class="arrows_up"> </span>
+   </div>
+    <div class="second">
+    <label class="label_for_input" for="city"> City </label>
+    <input class="input" type="text" name="city" id="city" required="">
+    </div>
+</div>
+<div class="input_section4"> 
+    <div class="button"> 
+        <label class="label_for_button" for="button"> Sign in </label>
+        <button class="input_button" type="get" name="but" id="button" required="">
+    </div>
+  </div>
+
+  <div class="footer_text"> 
+    <span class="grey_text"> By clicking the 'Sign Up' button, you confirm that you accept our
+   <a class="link_footer" href="#"> Terms of Use </a>   and <a class="link_footer" href="#"> Privacy Policy </a>  </span>
+</div>
+ <div class="log_in"> 
+    <span class="text_login"> Have an account? <a class="link_login" href="#"> Log in </a> </span> 
+ </div>
+ </div>
+</form>
+
+  <form class="profile">
+     <div class="container"> 
+        <div class="main_title"> 
+         <h3 class="title_of_container"> Profile </h3>
+    </div>
+  <div class="high_profile">
+    <div class="avatar"> 
+         <img class="profile_avatar" src="img/avatar.jfif"> 
+     </div>
+     <div class="section_for_file">
+     <div class="fake_input_file">
+        <input class="input_file" type="file" name="file" id="input_file" required="">
+        <label class="label_file" for="input_file">   <span class="camera"> </span> </label>
+    </div>
+        <button class="bucket"> <img src="img/bucket.png"> </button>
+        <p class="text_file"> Up to 1 MB (300x300 px) </p>
+   </div>
+  </div> 
+
+  <div class="input_section1"> 
+    <div class="first"> 
+        <label class="label_for_input" for="first_name"> Name </label>
+        <input class="input" type="text" name="first_name" id="first_name" required="">
+   </div>
+    <div class="second">
+        <label class="label_for_input" for="last_name"> E-mail </label>
+       <input class="input" type="text" name="last_name" id="last_name" required="">
+    </div>
+  </div>
+
+<div class="input_section3"> 
+    <div class="first_country"> 
+       <label class="label_for_input" for="country"> Country </label>
+    <select name="country" class="select_country">
+        <option value="0"> Select </option>
+        <option value="1"> Ukraine </option>
+        <option value="2"> USA </option>
+        <option value="3"> France </option>
+        <option value="4"> Italy </option>
+        <option value="5"> Poland </option>
+        <option value="6"> Canada </option>
+        <option value="7"> Spain </option>
+   </select>
+         <span class="arrows_down"> </span>
+        <span class="arrows_up"> </span>
+   </div>
+    <div class="second">
+       <label class="label_for_input" for="city"> City </label>
+       <input class="input" type="text" name="city" id="city" required="">
+    </div>
+</div>
+
+
+<div class="input_section1"> 
+    <div class="first"> 
+       <label class="label_for_input" for="first_name"> Zip Code </label>
+       <input class="input" type="text" name="first_name" id="first_name" required="">
+   </div>
+    <div class="second">
+        <label class="label_for_input" for="last_name"> Phone Number </label>
+       <input class="input" type="text" name="last_name" id="last_name" required="">
+    </div>
+</div>
+
+<div class="input_section4"> 
+    <div class="update"> 
+        <label class="label_for_update" for="update"> Update </label>
+        <button class="button_update" type="get" name="but" id="update" required="">
+    </div>
+</div>
+
+    </div>
+ </form>
+
+    </section>
+
+</body>
+</html>
