@@ -23,7 +23,7 @@ height: 700px;
 width: 100%;
 background-color: #E5E5E5;
 display: flex;
-justify-content: space-around; }
+justify-content: center; }
 
 .container {
 padding: 35px 34px 35px 34px;
